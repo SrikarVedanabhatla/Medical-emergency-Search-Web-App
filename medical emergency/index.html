@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Emergency Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Medical Emergency Search</h1>
+    <center>
+      <input type="text" id="emergencyInput" oninput="filterEmergencies()" placeholder="Search for an emergency...">
+      <select id="emergencyDropdown" onchange="displayEmergencyDetails()" class="select-box">
+        <option value="">Select Emergency Type</option>
+        <option value="heart_attack">Heart Attack</option>
+        <option value="stroke">Stroke</option>
+        <option value="allergic_reaction">Allergic Reaction</option>
+        <option value="diabetic_emergency">Diabetic Emergency</option>
+        <option value="asthma_attack">Asthma Attack</option>
+        <option value="seizure">Seizure</option>
+        <option value="choking">Choking</option>
+        <option value="burns">Burns</option>
+        <option value="heat_stroke">Heat Stroke</option>
+        <option value="hypothermia">Hypothermia</option>
+        <option value="poisoning">Poisoning</option>
+        <option value="drowning">Drowning</option>
+        <option value="broken_bones">Broken Bones</option>
+        <option value="head_injury">Head Injury</option>
+        <option value="electric_shock">Electric Shock</option>
+      </select>
+    </center>
+    <div id="emergencyDetails" class="details-container">
+      <!-- Emergency details will be displayed here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

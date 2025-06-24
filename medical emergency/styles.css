@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('college.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .container {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+  }
+  
+  .title {
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .select-box,
+  #emergencyInput {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .select-box:focus,
+  #emergencyInput:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .details-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+  }
+  
+  .details-container table {
+    width: 100%;
+  }
+  
+  .details-container td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .details-container td:first-child {
+    font-weight: bold;
+    width: 30%;
+  }
+  
+  .details-container p {
+    font-style: italic;
+  }
+  
+  .red-bg {
+    background-color: red;
+  }
+  
+  .yellow-bg {
+    background-color: yellow;
+  }
+  
+  .green-bg {
+    background-color: green;
+  }
+  
